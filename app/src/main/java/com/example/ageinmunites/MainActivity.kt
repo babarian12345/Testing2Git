@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn.setOnClickListener {view -> calendarDialog(view) }
-
+        btn.setOnClickListener {view -> calendarDialog(view) }
 
     }
     fun calendarDialog(view: View){
